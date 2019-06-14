@@ -4,12 +4,12 @@ This project can be executed from mvn command line using the following command:
 
 clean verify "-Dcucumber.options=--tags @dev" -Dbrowser=chrome -DrunLocation=local
 
-This is execute the scripts in chrome in the local/dev environment.
+This will execute the scripts in chrome in the local/dev environment.
 
 To create an account using scripts, just need to update to unique email in the "Registration.feature" file and in "dataFile.yml"
-Instead of hardcoding data, reading it from dataFile.yml. So, that we can create and update data, without touching the scripts.
+Instead of hardcoding data, I am reading it from dataFile.yml. So, that we can create and update data, without touching the scripts.
 
-By just changing the variable from the command prompt, the scripts can be excuted in various browers both locally and remotly(template in place and code partatailly done)
+By just changing the variable from the command prompt, the scripts can be executed in various browsers both locally and remotly(template in place and code partially done)
 
 As requested 2 sceanrios had been automated and making sure the below tasks are completed.
 
@@ -17,13 +17,12 @@ Tasks:
 
 ·         To the best of your skill and knowledge create a simple a basic  Automation framework (maven project) using Cucumber BDD in github / send us through a ZIP file with some design ( if possible ) (Implemented)
 
-Write BDD scenarios for the above user stories( pick any one or  two )  with necessary tags(Implemented)
+Write BDD scenarios for the above user stories(pick any one or  two )  with necessary tags(Implemented)
 
-Automate the scenarios using Selenium 3, follow Page Object/factory pattern(Implemented)
+Automate the scenarios using Selenium 3, follow Page Object/factory pattern (Implemented)
+Run the Automation suite from command line and generate the report ( not mandatory ) (Implemented)
 
-Run the Automation suite from command line and generate the report ( not mandatory )(Implemented)
-
-Pass the browser name and tag dynamically as Maven parameter( not mandatory )(Implemented)
+Pass the browser name and tag dynamically as Maven parameter(not mandatory ) (Implemented)
 
 Add the following project in https://github.com/ and please send back the github url for review(Implemented)
 
