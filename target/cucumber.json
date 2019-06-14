@@ -1,0 +1,302 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2019-06-14T02:43:32.268Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5352639201,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BrowserDriver.getCurrentDriver()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Validate user is able to register",
+        "description": "",
+        "id": "registering-to-automation-practice;validate-user-is-able-to-register",
+        "after": [
+          {
+            "result": {
+              "duration": 44401961,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BrowserDriver.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13728459990,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Automation practice page is opened",
+            "match": {
+              "location": "RegistrationStepDef.automationPracticePageIsOpened()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2006403397,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on Sign in link",
+            "match": {
+              "location": "RegistrationStepDef.iClickOnSignInLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 139812432,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I provide with email address \"testautoprac_115@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"testautoprac_115@gmail.com\"",
+                  "offset": 29
+                }
+              ],
+              "location": "RegistrationStepDef.iProvideWithEmailAddress(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 118137755,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click on \"Create an account\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Create an account\"",
+                  "offset": 11
+                }
+              ],
+              "location": "RegistrationStepDef.iOnButton(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3046054326,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "provide all the required information of \"testautoprac_115@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"testautoprac_115@gmail.com\"",
+                  "offset": 40
+                }
+              ],
+              "location": "RegistrationStepDef.provideAllTheRequiredInformationOf(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2769842798,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click on Register button",
+            "match": {
+              "location": "RegistrationStepDef.iClickOnRegisterButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 41282929,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I should be able to register successfully and receive the following message \"Welcome to your account. Here you can manage all of your personal information and orders.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Welcome to your account. Here you can manage all of your personal information and orders.\"",
+                  "offset": 76
+                }
+              ],
+              "location": "RegistrationStepDef.iShouldBeAbleToRegisterSuccessfullyAndReceiveTheFollowingMessage(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@registration"
+          },
+          {
+            "name": "@dev"
+          },
+          {
+            "name": "@sqi"
+          },
+          {
+            "name": "@uat"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-06-14T02:43:59.533Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4272604253,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BrowserDriver.getCurrentDriver()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "While registering, if the email address is incorrect. User should see an error message",
+        "description": "",
+        "id": "registering-to-automation-practice;while-registering--if-the-email-address-is-incorrect.-user-should-see-an-error-message",
+        "after": [
+          {
+            "result": {
+              "duration": 74407794,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BrowserDriver.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8805776390,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Automation practice page is opened",
+            "match": {
+              "location": "RegistrationStepDef.automationPracticePageIsOpened()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2312763788,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I click on Sign in link",
+            "match": {
+              "location": "RegistrationStepDef.iClickOnSignInLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 93719803,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I provide with email address \"testautoprac_111\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"testautoprac_111\"",
+                  "offset": 29
+                }
+              ],
+              "location": "RegistrationStepDef.iProvideWithEmailAddress(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 76729250,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I click on \"Create an account\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Create an account\"",
+                  "offset": 11
+                }
+              ],
+              "location": "RegistrationStepDef.iOnButton(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 721286168,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user should see the following error message \"Invalid email address.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Invalid email address.\"",
+                  "offset": 44
+                }
+              ],
+              "location": "RegistrationStepDef.userShouldSeeTheFollowingErrorMessage(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@registration"
+          },
+          {
+            "name": "@dev"
+          },
+          {
+            "name": "@sqi"
+          },
+          {
+            "name": "@uat"
+          }
+        ]
+      }
+    ],
+    "name": "Registering to automation practice",
+    "description": "",
+    "id": "registering-to-automation-practice",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Registration.feature",
+    "tags": [
+      {
+        "name": "@registration",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

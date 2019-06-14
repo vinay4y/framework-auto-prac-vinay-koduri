@@ -6,9 +6,9 @@ Feature: Registering to automation practice
   Scenario: Validate user is able to register
     Given Automation practice page is opened
     When I click on Sign in link
-    And I provide with email address "testautoprac_114@gmail.com"
+    And I provide with email address "testautoprac_115@gmail.com"
     Then I click on "Create an account" button
-    And provide all the required information of "testautoprac_114@gmail.com"
+    And provide all the required information of "testautoprac_115@gmail.com"
     And I click on Register button
     Then I should be able to register successfully and receive the following message "Welcome to your account. Here you can manage all of your personal information and orders."
 

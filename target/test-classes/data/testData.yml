@@ -1,0 +1,26 @@
+testautoprac@gmail.com:
+  - Personal_FirstName: Automation
+    Personal_LastName: Practice
+    Personal_Email: testautoprac@gmail.com
+    Personal_Password: AutoPrac123
+    Address_FirstName: Automation
+    Address_LastName: Practice
+    Address_Address_L1: 28 Alaska Rd
+    Address_City: Fairbanks
+    Address_State: Alaska
+    Address_Postcode: 99703
+    Address_Mobile: 001118562233122
+    Address_alais: alaskaAddress
+testautoprac_115@gmail.com:
+  - Personal_FirstName: Automation
+    Personal_LastName: Practice
+    Personal_Email: testautoprac@gmail.com
+    Personal_Password: AutoPrac123
+    Address_FirstName: Automation
+    Address_LastName: Practice
+    Address_Address_L1: 28 Alaska Rd
+    Address_City: Fairbanks
+    Address_State: Alaska
+    Address_Postcode: 99703
+    Address_Mobile: 001118562233122
+    Address_alais: alaskaAddress
